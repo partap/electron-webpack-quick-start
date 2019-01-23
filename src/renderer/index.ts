@@ -6,17 +6,6 @@ import Vue from "vue"
 Vue.config.productionTip = false
 Vue.config.devtools = process.env.NODE_ENV === "development"
 
-// import junk from '@/junk/junk'
-// var el = document.createElement('p')
-// el.innerHTML = 'Hello ' + junk
-// document.body.appendChild(el);
-
-// import tmpl from './templates/foo.pug'
-// let pre = document.createElement('pre')
-// pre.innerHTML = tmpl
-// document.body.appendChild(pre)
-
-// import App from './components/app/App.vue'
 
 import App from './App.vue'
 new Vue({
